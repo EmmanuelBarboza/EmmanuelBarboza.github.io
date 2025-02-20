@@ -3,29 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de [Tu Nombre]</title>
+    <title>Portafolio de Emmanuel</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Fondo con luces animadas -->
+    <div class="light x1"></div>
+    <div class="light x2"></div>
+    <div class="light x3"></div>
+    <div class="light x4"></div>
+
     <header>
         <div class="container">
-            <h1>[Tu Nombre]</h1>
-            <p>Desarrollador de Software</p>
+            <h1 class="animate-pop-in">Emmanuel Ramiro Barboza Mora</h1>
+            <p class="animate-pop-in">Estudiante de Informatica Empresarial</p>
         </div>
     </header>
 
     <section id="about">
         <div class="container">
-            <h2>Sobre Mí</h2>
-            <p>
-                ¡Hola! Soy [Tu Nombre], un apasionado desarrollador de software con experiencia en [tus habilidades principales, por ejemplo: desarrollo web, aplicaciones móviles, etc.]. Me encanta resolver problemas complejos y crear soluciones eficientes y escalables. En mi tiempo libre, disfruto de [tus hobbies, por ejemplo: aprender nuevas tecnologías, contribuir a proyectos de código abierto, etc.].
+            <h2 class="animate-pop-in">Sobre Mí</h2>
+            <p class="animate-pop-in">
+                ¡Hola! Soy Emmanuel, un estudiante de Informática con experiencia en Java, C# y .NET. Me especializo en desarrollo web con .NET, aplicaciones de escritorio y móviles en .NET. También tengo conocimientos en Godot y he lanzado un videojuego. Disfruto creando soluciones eficientes y aprendiendo nuevas tecnologías.
             </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="animate-pop-in">Mis Proyectos</h2>
+            <div class="filters animate-pop-in">
+                <button class="filter-button active" data-filter="all">Todos</button>
+                <button class="filter-button" data-filter="java">Java</button>
+                <button class="filter-button" data-filter="csharp">C#</button>
+                <button class="filter-button" data-filter="godot">Godot</button>
+                <button class="filter-button" data-filter="python">Python</button>
+                <button class="filter-button" data-filter="web">Web</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card" data-tech="java">
+                    <h3>Proyecto Java</h3>
+                    <p>Descripción breve del proyecto desarrollado en Java.</p>
+                    <a href="#" class="project-link">Ver más</a>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="project-card" data-tech="csharp">
+                    <h3>Proyecto C#</h3>
+                    <p>Descripción breve del proyecto desarrollado en C#.</p>
+                    <a href="#" class="project-link">Ver más</a>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="project-card" data-tech="godot">
+                    <h3>ThrowKnight</h3>
+                    <p>VideoJuego 2D desarrollado durante la boss rush game jam 2025.</p>
+                    <a href="https://enma1890.itch.io/throwknight" class="project-link">Ver más (Jugar)</a>
+                    
+                    <a href="https://github.com/EmmanuelBarboza/ThrowKnight" class="project-link">Ver más (Repositorio)</a>
+                </div>
+                
+                <!-- Proyecto 4 -->
+                <div class="project-card" data-tech="godot">
+                    <h3>TappyPlane</h3>
+                    <p>VideoJuego 2D clon de FlappyPlane.</p>
+                    <a href="https://github.com/EmmanuelBarboza/TappyPlane" class="project-link">Ver más</a>
+                </div>
+
+                <!-- Proyecto 5 -->
+                <div class="project-card" data-tech="godot">
+                    <h3>AngryAnimals</h3>
+                    <p>VideoJuego 2D clon de Angry Birds.</p>
+                    <a href="https://github.com/EmmanuelBarboza/AngryAnimals" class="project-link">Ver más</a>
+                </div>
+
+
+                <!-- Proyecto 6 -->
+                <div class="project-card" data-tech="python">
+                    <h3>Proyecto Python</h3>
+                    <p>Descripción breve del proyecto desarrollado en Python.</p>
+                    <a href="#" class="project-link">Ver más</a>
+                </div>
+                <!-- Proyecto 7 -->
+                <div class="project-card" data-tech="web">
+                    <h3>Proyecto Web</h3>
+                    <p>Descripción breve del proyecto de desarrollo web.</p>
+                    <a href="#" class="project-link">Ver más</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 [Tu Nombre]. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/EmmanuelBarboza"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/emmanuel-barboza-mora/"><i class="fab fa-linkedin"></i></a>
+            </div>
         </div>
     </footer>
 
