@@ -140,6 +140,8 @@ header p {
     color: #64ffda;
     text-decoration: none;
     font-weight: bold;
+    display: block;
+    margin-bottom: 10px; 
 }
 
 footer {
