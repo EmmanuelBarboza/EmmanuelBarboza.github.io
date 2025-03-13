@@ -163,9 +163,10 @@ footer p {
 .social-links a {
     color: #64ffda;
     margin: 0 10px;
-    font-size: 1.2rem;
+    font-size: 8rem;  
     transition: color 0.3s;
 }
+
 
 .social-links a:hover {
     color: #8892b0;
