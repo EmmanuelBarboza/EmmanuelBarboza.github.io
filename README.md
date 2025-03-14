@@ -1,6 +1,6 @@
 # EmmanuelBarboza.github.io
 
-Este es el portafolio personal de **Emmanuel Ramiro Barboza Mora**, un estudiante de **Informática Empresarial** de la Universidad de Costa Rica. En este sitio web se destacan algunos de los proyectos en los que he trabajado, utilizando diversas tecnologías como **Java**, **C#**, **.NET**, **Godot**, **Python**, y desarrollo web.
+Este es mi portafolio personal de , soy un estudiante de **Informática Empresarial** de la Universidad de Costa Rica. En este sitio web se destacan algunos de los proyectos en los que he trabajado, utilizando diversas tecnologías como **Java**, **C#**, **.NET**, **Godot**, **Python**, y desarrollo web.
 
 ## Sobre el Portafolio
 
