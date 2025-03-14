@@ -317,3 +317,51 @@ body {
     animation: popIn 2s ease-out;
 }
 
+/* Estilos para la sección de Educación */
+#education {
+    background: #112240;
+    padding: 40px 0;
+}
+
+#education .section-title {
+    font-size: 2rem;
+    color: #64ffda;
+    margin-bottom: 20px;
+    animation: popIn 1s ease-out;
+}
+
+.education-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.education-card {
+    background: #1f2a48;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #64ffda;
+    transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-10px);
+}
+
+.education-title {
+    font-size: 1.5rem;
+    color: #64ffda;
+    margin-bottom: 10px;
+}
+
+.education-date {
+    font-size: 1.1rem;
+    color: #a8b2d1;
+    margin-bottom: 10px;
+}
+
+.education-description {
+    font-size: 1rem;
+    color: #a8b2d1;
+    line-height: 1.6;
+}
