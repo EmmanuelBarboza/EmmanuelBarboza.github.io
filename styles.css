@@ -72,10 +72,10 @@ header p {
 
 .filters {
     display: flex;
+    flex-wrap: wrap; /* Permite que los botones se ajusten */
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
-    z-index: 1;
 }
 
 .filter-button {
@@ -87,6 +87,14 @@ header p {
     transition: background 0.3s, color 0.3s;
     z-index: 1;
 }
+
+@media (max-width: 576px) {
+    .filter-button {
+        padding: 8px 15px; /* Reduce el padding para pantallas pequeñas */
+        font-size: 0.9rem; /* Ajusta el tamaño de fuente */
+    }
+}
+
 
 .filter-button.active, .filter-button:hover {
     background: #64ffda;
@@ -291,6 +299,7 @@ body {
 }
 
 
+/* Estilos generales de la navbar */
 .navbar {
     background-color: #112240; 
     padding: 15px 0;
@@ -303,6 +312,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Permite que los elementos se acomoden en filas cuando el espacio sea pequeño */
 }
 
 .navbar-list li {
@@ -315,12 +325,33 @@ body {
     font-size: 18px;
     font-weight: bold;
     transition: color 0.3s;
+    background-color: ;
+    border-radius: 20px; 
 }
 
 .navbar-list a:hover {
     color: #ccd6f6; 
 }
 
+/* Estilos para cuando la pantalla es pequeña */
+@media (max-width: 768px) {
+    .navbar-list {
+        flex-direction: column;  /* Los elementos se apilan verticalmente */
+        align-items: center;  /* Centra los elementos */
+        gap: 10px;  /* Añade espacio entre los elementos */
+    }
+
+    .navbar-list li {
+        margin: 10px 0; /* Espacio entre los elementos de la lista */
+    }
+}
+
+/* Estilos para cuando la pantalla es extra pequeña (móviles muy pequeños) */
+@media (max-width: 480px) {
+    .navbar-list a {
+        font-size: 16px; /* Reduce el tamaño de la fuente en pantallas pequeñas */
+    }
+}
 .profile-image {
     width: 250px;
     height: 250px;

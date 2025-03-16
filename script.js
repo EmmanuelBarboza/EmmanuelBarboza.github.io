@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+
+
+    
+
     // Filtrado de proyectos
     const filterButtons = document.querySelectorAll('.filter-button');
     const projectCards = document.querySelectorAll('.project-card');
