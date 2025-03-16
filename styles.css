@@ -126,11 +126,24 @@ header p {
 
 .project-link {
     color: #64ffda;
-    text-decoration: none;
+    text-decoration: underline; 
     font-weight: bold;
     display: block;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
+    transition: all 0.3s ease; 
 }
+
+.project-link:hover {
+    color: #00e5ff;
+    text-decoration: underline; 
+    transform: scale(1.05); 
+}
+
+.project-link:active {
+    color: #00b8d4; 
+    transform: scale(0.98); 
+}
+
 
 .project-icon {
     display: block;

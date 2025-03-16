@@ -3,13 +3,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const filterButtons = document.querySelectorAll('.filter-button');
     const projectCards = document.querySelectorAll('.project-card');
 
-    // Mapeo de tecnologías a rutas de íconos
+    // Mapeo de tecnologías a rutas de íconos, incluyendo Android
     const techIcons = {
         java: 'img/java.ico',
-        csharp: 'img/cs.ico',
+        csharp: 'img/c-sharp.png',
         godot: 'img/godot.ico',
         python: 'img/python.ico',
-        web: 'img/web.ico'
+        web: 'img/web.ico',
+        android: 'img/android.ico' // Ícono de Android añadido
     };
 
     // Función para generar íconos de tecnologías
