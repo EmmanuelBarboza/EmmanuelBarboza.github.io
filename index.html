@@ -17,6 +17,12 @@
             <img src="img/Emmanuel.jpg" alt="Emmanuel Barboza" class="profile-image">
             <br>
             <img src="img/ucr.png" alt="Universidad de Costa Rica">
+            <br>
+            <div class="social-links">
+                <a href="https://github.com/EmmanuelBarboza" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/emmanuel-barboza-mora/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="files/CV_Emmanuel_Barboza_Mora.pdf" download="CV_Emmanuel_Barboza_Mora.pdf" class="social-icon"><i class="fas fa-file-download"></i>
+            </div>
         </div>
     </header>
 
@@ -25,8 +31,8 @@
             <li><a href="#about">Sobre Mí</a></li>
             <li><a href="#skills">Habilidades</a></li>
             <li><a href="#experience">Experiencia</a></li>
-            <li><a href="#education">Educación</a></li> 
             <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#education">Educación</a></li> 
         </ul>
     </nav>
 
@@ -74,11 +80,6 @@
                     <p>Experiencia colaborando con equipos en proyectos de desarrollo.</p>
                 </div>
                 <div class="skill-card">
-                    <i class="fas fa-cogs skill-icon"></i>
-                    <h3>Metodologías Ágiles</h3>
-                    <p>Conocimientos en Scrum y experiencia trabajando en entornos ágiles basicos.</p>
-                </div>
-                <div class="skill-card">
                     <i class="fab fa-github skill-icon"></i>
                     <h3>Git</h3>
                     <p>Manejo de control de versiones con Git para el trabajo colaborativo en proyectos.</p>
@@ -86,12 +87,7 @@
                 <div class="skill-card">
                     <i class="fas fa-laptop skill-icon"></i>
                     <h3>Windows / Linux</h3>
-                    <p>Conocimiento avanzado en administración de sistemas operativos Windows y Linux.</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-microchip skill-icon"></i>
-                    <h3>Arduino</h3>
-                    <p>Experiencia en la programación y manejo de microcontroladores Arduino basicos.</p>
+                    <p>Conocimiento en administración de sistemas operativos Windows y Linux.</p>
                 </div>
             </div>
         </div>
@@ -103,17 +99,60 @@
             <div class="experience-list">
                 <div class="experience-card">
                     <h3 class="experience-title">Tutor de Programación en Superprof</h3>
-                    <p class="experience-date">Diciembre 2022 - Actualidad</p>
+                    <p class="experience-date">Diciembre 2023 - Actualidad</p>
                     <p class="experience-description">
                         Actualmente brindo tutorías en programación en la plataforma Superprof. Ayudo a estudiantes a aprender lenguajes como Java, C#, Python y desarrollo web. Me apasiona enseñar y compartir mis conocimientos con aquellos que están iniciando o profundizando en la programación.
                     </p>
                 </div>
-                <div class="experience-card">
-                    <h3 class="experience-title">Desarrollador Freelance</h3>
-                    <p class="experience-date">Junio 2023 - Actualidad</p>
-                    <p class="experience-description">
-                        Trabajo como desarrollador freelance en diversos proyectos, incluyendo aplicaciones de escritorio y sitios web. Utilicé tecnologías como Java, C#, y frameworks como Bootstrap y .NET.
-                    </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="animate-pop-in section-title">Mis Proyectos</h2>
+            <div class="filters animate-pop-in">
+                <button class="filter-button active" data-filter="all">Todos</button>
+                <button class="filter-button" data-filter="java">Java</button>
+                <button class="filter-button" data-filter="csharp">C#</button>
+                <button class="filter-button" data-filter="godot">Godot</button>
+                <button class="filter-button" data-filter="python">Python</button>
+                <button class="filter-button" data-filter="web">Web</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Proyecto con múltiples tecnologías -->
+                <div class="project-card" data-tech="java">
+                    <h3>SGC - Sistema Gestión Clientes</h3>
+                    <p>Aplicación en Java y C# para gestionar clientes con operaciones CRUD.</p>
+                    <a href="https://github.com/EmmanuelBarboza/SGC-Sistema-Gestion-Clientes" class="project-link">Ver más</a>
+                </div>
+                <div class="project-card" data-tech="godot">
+                    <h3>ThrowKnight</h3>
+                    <p>Videojuego 2D desarrollado durante la Boss Rush Game Jam 2025.</p>
+                    <a href="https://enma1890.itch.io/throwknight" class="project-link">Jugar</a>
+                    <a href="https://github.com/EmmanuelBarboza/ThrowKnight" class="project-link">Repositorio</a>
+                </div>
+                <div class="project-card" data-tech="godot">
+                    <h3>TappyPlane</h3>
+                    <p>Videojuego 2D, clon de Flappy Bird.</p>
+                    <a href="https://github.com/EmmanuelBarboza/TappyPlane" class="project-link">Ver más</a>
+                </div>
+                <div class="project-card" data-tech="godot">
+                    <h3>AngryAnimals</h3>
+                    <p>Videojuego 2D inspirado en Angry Birds.</p>
+                    <a href="https://github.com/EmmanuelBarboza/AngryAnimals" class="project-link">Ver más</a>
+                </div>
+                <div class="project-card" data-tech="python">
+                    <h3>GCI - Generador de contraseñas mediante imágenes</h3>
+                    <p>Aplicación para generar contraseñas a partir de imágenes.</p>
+                    <a href="https://github.com/EmmanuelBarboza/GCI-Generador-Claves-Imagenes" class="project-link">Ver más</a>
+                </div>
+                <div class="project-card" data-tech="csharp">
+                    <h3>MauiMonitor</h3>
+                    <p>Aplicación en .NET MAUI para monitorear el uso de la CPU, RAM, almacenamiento y temperatura del sistema en tiempo real en dispositivos Android.</p>
+                    <a href="https://github.com/EmmanuelBarboza/MauiMonitor" class="project-link">Ver más</a>
                 </div>
             </div>
         </div>
@@ -167,63 +206,6 @@
         </div>
     </div>
 </section>
-
-<section id="projects">
-    <div class="container">
-        <h2 class="animate-pop-in section-title">Mis Proyectos</h2>
-        <div class="filters animate-pop-in">
-            <button class="filter-button active" data-filter="all">Todos</button>
-            <button class="filter-button" data-filter="java">Java</button>
-            <button class="filter-button" data-filter="csharp">C#</button>
-            <button class="filter-button" data-filter="godot">Godot</button>
-            <button class="filter-button" data-filter="python">Python</button>
-            <button class="filter-button" data-filter="web">Web</button>
-        </div>
-        <div class="projects-grid">
-            <div class="project-card" data-tech="java">
-                <img src="img/java.ico" alt="Java Icon" class="project-icon">
-                <h3>SGC - Sistema Gestión Clientes</h3>
-                <p>Aplicación en Java para gestionar clientes con operaciones CRUD.</p>
-                <a href="https://github.com/EmmanuelBarboza/SGC-Sistema-Gestion-Clientes" class="project-link">Ver más</a>
-            </div>
-            <div class="project-card" data-tech="godot">
-                <img src="img/godot.ico" alt="Godot Icon" class="project-icon">
-                <h3>ThrowKnight</h3>
-                <p>Videojuego 2D desarrollado durante la Boss Rush Game Jam 2025.</p>
-                <a href="https://enma1890.itch.io/throwknight" class="project-link">Jugar</a>
-                <a href="https://github.com/EmmanuelBarboza/ThrowKnight" class="project-link">Repositorio</a>
-            </div>
-            <div class="project-card" data-tech="godot">
-                <img src="img/godot.ico" alt="Godot Icon" class="project-icon">
-                <h3>TappyPlane</h3>
-                <p>Videojuego 2D, clon de Flappy Bird.</p>
-                <a href="https://github.com/EmmanuelBarboza/TappyPlane" class="project-link">Ver más</a>
-            </div>
-            <div class="project-card" data-tech="godot">
-                <img src="img/godot.ico" alt="Godot Icon" class="project-icon">
-                <h3>AngryAnimals</h3>
-                <p>Videojuego 2D inspirado en Angry Birds.</p>
-                <a href="https://github.com/EmmanuelBarboza/AngryAnimals" class="project-link">Ver más</a>
-            </div>
-            <div class="project-card" data-tech="python">
-                <img src="img/python.ico" alt="Python Icon" class="project-icon">
-                <h3>GCI - Generador de contraseñas mediante imágenes</h3>
-                <p>Aplicación para generar contraseñas a partir de imágenes.</p>
-                <a href="https://github.com/EmmanuelBarboza/GCI-Generador-Claves-Imagenes" class="project-link">Ver más</a>
-            </div>
-            <!-- Nuevo Proyecto MauiMonitor -->
-            <div class="project-card" data-tech="csharp">
-                <img src="img/cs.ico" alt="C# Icon" class="project-icon">
-                <h3>MauiMonitor</h3>
-                <p>Aplicación en .NET MAUI para monitorear el uso de la CPU, RAM, almacenamiento y temperatura del sistema en tiempo real en dispositivos Android.</p>
-                <a href="https://github.com/EmmanuelBarboza/MauiMonitor" class="project-link">Ver más</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-    
-
 
     <footer>
         <div class="container footer-container">
